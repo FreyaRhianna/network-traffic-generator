@@ -7,16 +7,16 @@ Install scrapy
 (It's recommended to install scrapy inside a virtual environment)
 
 run:
-    scrapy crawl <spider-name>
+    `scrapy crawl <spider-name>`
 
 Spiders:
-##malicious_traffic_gen
+##### malicious_traffic_gen
 collectmalsites - Compile a list of malicious sites (you don't need to run this spider everytime.
                   Once you've got a list you'll only want to re-run it if you want to update the list.
 
 crawlmalsites - Activate the spider. It will make requests to malicious sites and download files
 
-##traffic_gen
+##### traffic_gen
 
 collecttopsites - Compile a list of the top sites (see: collectmalsites)
 
